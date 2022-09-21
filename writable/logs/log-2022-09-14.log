@@ -1,0 +1,236 @@
+CRITICAL - 2022-09-14 16:27:59 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 96
+in APPPATH\Controllers\Admin\Categorias.php on line 222.
+ 1 APPPATH\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Categorias->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:27:59 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 96
+in APPPATH\Controllers\Admin\Categorias.php on line 222.
+ 1 APPPATH\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Categorias->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:27:59 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 96
+in APPPATH\Controllers\Admin\Categorias.php on line 222.
+ 1 APPPATH\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Categorias->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:27:59 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 96
+in APPPATH\Controllers\Admin\Categorias.php on line 222.
+ 1 APPPATH\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Categorias->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:27:59 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 96
+in APPPATH\Controllers\Admin\Categorias.php on line 222.
+ 1 APPPATH\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Categorias->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:27:59 --> Argument 1 passed to App\Controllers\Admin\Categorias::buscaCategoriaOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Categorias.php on line 96
+in APPPATH\Controllers\Admin\Categorias.php on line 222.
+ 1 APPPATH\Controllers\Admin\Categorias.php(96): App\Controllers\Admin\Categorias->buscaCategoriaOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Categorias->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categorias))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:07 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 118
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(118): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:08 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 118
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(118): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:08 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 118
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(118): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:08 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 118
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(118): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:08 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 118
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(118): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:08 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 118
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(118): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:12 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 131
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(131): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 131
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(131): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 131
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(131): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 131
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(131): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 131
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(131): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:13 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 131
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(131): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:18 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 118
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(118): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:18 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 118
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(118): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:19 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 118
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(118): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:19 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 118
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(118): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:19 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 118
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(118): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:34:19 --> Argument 1 passed to App\Controllers\Admin\Produtos::buscaProdutoOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Produtos.php on line 118
+in APPPATH\Controllers\Admin\Produtos.php on line 551.
+ 1 APPPATH\Controllers\Admin\Produtos.php(118): App\Controllers\Admin\Produtos->buscaProdutoOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Produtos->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:41:22 --> Call to undefined function word_limiter()
+in APPPATH\Views\Home\index.php on line 62.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(25): view('Home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:41:23 --> Call to undefined function word_limiter()
+in APPPATH\Views\Home\index.php on line 62.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(25): view('Home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:41:23 --> Call to undefined function word_limiter()
+in APPPATH\Views\Home\index.php on line 62.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(25): view('Home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-14 16:41:23 --> Call to undefined function word_limiter()
+in APPPATH\Views\Home\index.php on line 62.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Home/index', [], true)
+ 4 APPPATH\Controllers\Home.php(25): view('Home/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

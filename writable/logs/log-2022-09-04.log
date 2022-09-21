@@ -1,0 +1,48 @@
+CRITICAL - 2022-09-04 10:53:09 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Entregadores.php on line 99
+in APPPATH\Controllers\Admin\Entregadores.php on line 370.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(99): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Entregadores->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-04 10:53:09 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Entregadores.php on line 99
+in APPPATH\Controllers\Admin\Entregadores.php on line 370.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(99): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-04 10:53:09 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Entregadores.php on line 99
+in APPPATH\Controllers\Admin\Entregadores.php on line 370.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(99): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-04 10:53:09 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Entregadores.php on line 99
+in APPPATH\Controllers\Admin\Entregadores.php on line 370.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(99): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-04 10:53:09 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Entregadores.php on line 99
+in APPPATH\Controllers\Admin\Entregadores.php on line 370.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(99): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-09-04 10:53:10 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\food\app\Controllers\Admin\Entregadores.php on line 99
+in APPPATH\Controllers\Admin\Entregadores.php on line 370.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(99): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
