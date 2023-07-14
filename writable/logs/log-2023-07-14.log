@@ -1,0 +1,19 @@
+ERROR - 2023-07-14 08:29:34 --> mysqli_sql_exception: Can't create table `food`.`pedidos` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\food\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\food\system\Database\Forge.php(509): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\food\app\Database\Migrations\2023-07-14-112906_CriaTabelaPedidos.php(86): CodeIgniter\Database\Forge->createTable('pedidos')
+#5 C:\xampp\htdocs\food\system\Database\MigrationRunner.php(868): App\Database\Migrations\CriaTabelaPedidos->up()
+#6 C:\xampp\htdocs\food\system\Database\MigrationRunner.php(187): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\food\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\food\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\food\system\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\food\system\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index(Array)
+#11 C:\xampp\htdocs\food\system\CodeIgniter.php(891): CodeIgniter\CLI\CommandRunner->_remap('index', Array)
+#12 C:\xampp\htdocs\food\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#13 C:\xampp\htdocs\food\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\food\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#15 C:\xampp\htdocs\food\spark(98): CodeIgniter\CLI\Console->run()
+#16 {main}

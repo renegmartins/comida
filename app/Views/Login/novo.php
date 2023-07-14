@@ -1,4 +1,4 @@
-<?php echo $this->extend('Admin/layout/principal_autenticacao'); ?>
+<?php echo $this->extend('layout/principal_web'); ?>
 
 
 <?php echo $this->section('titulo'); ?>  <?php echo $titulo; ?>  <?php echo $this->endSection(); ?>
@@ -7,66 +7,36 @@
 
 <?php echo $this->section('estilos'); ?>
 
-<!-- Aqui enviamos para o template principal os estilos -->
+<link rel="stylesheet" href="<?php echo site_url("web/src/assets/css/produto.css") ?>"/>
 
 <?php echo $this->endSection(); ?>
 
-
-
 <?php echo $this->section('conteudo'); ?>
 
-<!-- Aqui enviamos para o template conteudos os estilos -->
-
-<div class="container-fluid page-body-wrapper full-page-wrapper">
-      <div class="content-wrapper d-flex align-items-center auth px-0">
-        <div class="row w-100 mx-0">
-          <div class="col-lg-5 mx-auto">
-            <div class="auth-form-light text-left py-5 px-4 px-sm-5">
-
-<?php if(session()->has('sucesso')): ?>
-
-<div class="alert alert-success alert-dismissible fade show" role="alert">
-  <strong>Perfeito!</strong> <?php echo session('sucesso'); ?>
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
-
-<?php endif; ?>
 
 
-<?php if(session()->has('info')): ?>
+<div class="container section" id="menu" data-aos="fade-up" style="margin-top: 3em">
+        <!-- product -->
+        <div class="product-content product-wrap clearfix product-deatil center-block" style="max-width: 60%;">
+        <div class="row"> 
+            
+            <div class="col-md-12">
 
-<div class="alert alert-primary alert-dismissible fade show" role="alert">
-  <strong>Informação!</strong> <?php echo session('info'); ?>
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
+                <p><?php echo $titulo; ?></p>
 
-<?php endif; ?>
+                <?php if (session()->has('errors_model')): ?>
 
+                    <ul style="margin-left: -1.6em !important; list-style: decimal">
+                        <?php foreach (session('errors_model') as $error): ?>
 
-<?php if(session()->has('atencao')): ?>
+                            <li class="text-danger"><?php echo $error; ?></li>
 
-<div class="alert alert-danger alert-dismissible fade show" role="alert">
-  <strong>Informação!</strong> <?php echo session('atencao'); ?>
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
+                        <?php endforeach; ?>
+                    </ul>
 
-<?php endif; ?>
+                <?php endif; ?>
 
-
-              <div class="brand-logo">
-                <img src="<?php echo site_url('admin/') ?>images/logo.svg" alt="logo">
-              </div>
-              <h4>Olá, Vamos começar!</h4>
-              <h6 class="font-weight-light mb-3">Por favor realize o login.</h6>
-
-
-              <?php echo form_open('login/criar'); ?>
+                <?php echo form_open('login/criar'); ?>
 
 
                 <div class="form-group">
@@ -89,24 +59,82 @@
 
 
               <?php echo form_close(); ?>
+
+
+
             </div>
-          </div>
+
         </div>
-      </div>
-      <!-- content-wrapper ends -->
-    </div>    
-    <!-- page-body-wrapper ends -->
+    </div>
+    <!-- end product -->
+</div>
+
+
     
 <?php echo $this->endSection(); ?>
 
-
-
-
 <?php echo $this->section('scripts'); ?>
 
-<!-- Aqui enviamos para o template principal os scripts -->
+<script src="<?php echo site_url('admin/vendors/mask/jquery.mask.min.js'); ?>"></script>
+<script src="<?php echo site_url('admin/vendors/mask/app.js'); ?>"></script>
+
+  <script>
+
+                            $("[name=cep]").focusout(function (){
+
+                                var cep = $(this).val();
+
+                                if(cep.length === 9){
+
+                                    $.ajax({
+
+                                        type: 'get',
+                                        url: '<?php echo site_url('carrinho/consultacep'); ?>',
+                                        dataType: 'json',
+                                        data:{ 
+                                            cep: cep
+                                        },
+                                        beforeSend: function () {
+
+                                            $("#cep").html('Consultando...');
+
+                                            $("[name=cep]").val('');
+
+                                        },
+                                        success: function (response) {
+
+                                        if(!response.erro){
+
+                                            $("#cep").html('');
+
+                                            $("#valor_entrega").html(response.valor_entrega);
+
+                                            $("#total").html(response.total);
+
+                                            $("#cep").html(response.bairro);
+
+                                        }else{
+
+                                            $("#cep").html(response.erro);
+
+                                        }
+
+                                        },
+                                        error: function (){
+                                            alert('Não foi possível consultar a taxa de entrega. Por favor entre em contato com a nossa equipe');
+                                        }
+                                        
+                                    });
+
+                                }
+
+                            });
+
+
+
+
+  </script>
 
 <?php echo $this->endSection(); ?>
-
 
 

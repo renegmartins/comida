@@ -42,7 +42,21 @@
     <link rel="manifest" href="<?php echo site_url('web/'); ?>src/assets/img/site.html" />
     <link rel="mask-icon" href="<?php echo site_url('web/'); ?>src/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#990100" />
-    <meta name="theme-color" content="#ffffff" />  
+    <meta name="theme-color" content="#ffffff" />
+
+    <style>
+        .navbar-nav > li > a{
+
+            line-height: 30px;
+
+        }
+
+        .btn-food{
+            background-color: #990100;
+            color: white !important;
+            font-family: 'Montserrat-Bold';
+        }
+    </style>
     
     <!-- Essa section renderizará os estilos especificos da view que estender esse layout -->
     <?php echo $this->renderSection('estilos') ?>
@@ -245,6 +259,39 @@
                                             <li><a class="page-scroll" href="#gallery">Gallery</a></li>
                                             <li><a class="page-scroll" href="#reservation">Reservation</a></li>
                                             <li><a class="page-scroll" href="#footer">Contact</a></li>
+
+                                            <?php if (session()->has('carrinho') && count(session()->get('carrinho')) > 0): ?>
+
+                                            <li>
+                                                <a class="page-scroll" href="<?php echo site_url('carrinho'); ?>">
+                                                    <i class="fa fa-shopping-cart fa fa-2x"></i>
+                                                    <span style="font-size: 25px !important"></span>
+
+                                                    <?php echo count(session()->get('carrinho')); ?>
+                                                </a>
+                                            </li>
+
+                                            <?php endif; ?>
+
+
+                                            <?php if(usuario_logado()): ?>
+
+                                                <li><a class="page-scroll" href="<?php echo site_url('conta'); ?>">Minha conta</a></li>
+                                                <li><a class="page-scroll" href="<?php echo site_url('login/logout'); ?>">Sair</a></li>
+
+                                            <?php else: ?>
+
+                                                <li><a class="page-scroll" href="<?php echo site_url('login'); ?>">Entrar</a></li>
+                                                <li><a class="page-scroll" href="<?php echo site_url('registrar'); ?>">Registrar-se</a></li>
+
+                                            <?php endif; ?>
+
+
+
+
+
+                                            
+
                                         </ul>
                                     </div>
                                 </div>
@@ -261,19 +308,28 @@
         </header>
         <!-- End header -->
 
+        <div class="container" style="margin-top: 2em;">
+            <?php if(session()->has('sucesso')): ?>
+                <div class="alert alert-success" role="alert"><?php echo session('sucesso'); ?></div>
+            <?php endif; ?>
 
+            <?php if(session()->has('info')): ?>
+                <div class="alert alert-info" role="alert"><?php echo session('info'); ?></div>
+            <?php endif; ?>
 
+            <?php if(session()->has('atencao')): ?>
+                <div class="alert alert-danger" role="alert"><?php echo session('atencao'); ?></div>
+            <?php endif; ?>
 
+            <?php if(session()->has('fraude')): ?>
+                <div class="alert alert-warning" role="alert"><?php echo session('fraude'); ?></div>
+            <?php endif; ?>
 
-
-
-
-
-
-
-
-
-
+            <!-- Captura os erros de CSFR - Ação não permitida -->
+            <?php if(session()->has('error')): ?>
+                <div class="alert alert-danger" role="alert"><?php echo session('error'); ?></div>
+            <?php endif; ?>
+        </div>       
 
 
 

@@ -39,6 +39,7 @@ $routes->setAutoRoute(true); /// ALTEREM AQUI PARA TRUE
 $routes->get('/', 'Home::index');
 
 $routes->get('login', 'Login::novo', ['filter' => 'visitante']);
+$routes->get('registrar', 'Registrar::novo', ['filter' => 'visitante']);
 
 $routes->group('admin', static function($routes){
     $routes->get('formas', 'Admin\FormasPagamento::index');

@@ -1,0 +1,36 @@
+CRITICAL - 2023-06-02 14:32:40 --> Argument 1 passed to App\Models\MedidaModel::exibeValor() must be of the type int, string given, called in C:\xampp\htdocs\food\app\Controllers\Produto.php on line 193
+in APPPATH\Models\MedidaModel.php on line 64.
+ 1 APPPATH\Controllers\Produto.php(193): App\Models\MedidaModel->exibeValor('Escolha o tamanho')
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Produto->exibeValor()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 15:27:29 --> Trying to get property 'nome' of non-object
+in APPPATH\Controllers\Carrinho.php on line 202.
+ 1 APPPATH\Controllers\Carrinho.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nome\' of non-object', 'APPPATH\\Controllers\\Carrinho.php', 202, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->especial()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 15:27:49 --> Trying to get property 'nome' of non-object
+in APPPATH\Controllers\Carrinho.php on line 202.
+ 1 APPPATH\Controllers\Carrinho.php(202): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nome\' of non-object', 'APPPATH\\Controllers\\Carrinho.php', 202, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->especial()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-02 16:56:11 --> Undefined property: stdClass::$tamnho
+in APPPATH\Views\Carrinho\index.php on line 81.
+ 1 APPPATH\Views\Carrinho\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$tamnho', 'APPPATH\\Views\\Carrinho\\index.php', 81, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrinho\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Carrinho/index', [], true)
+ 5 APPPATH\Controllers\Carrinho.php(40): view('Carrinho/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -108,4 +108,31 @@ class ProdutoModel extends Model
                 ->orderBy('categorias.nome', 'ASC')
                 ->findAll();
     }
+
+    public function exibeOpcoesProdutosParaCustomizar(int $categoria_id){
+
+        return $this->select(['produtos.id', 'produtos.nome'])
+                    ->join('produtos_especificacoes', 'produtos_especificacoes.produto_id = produtos.id')
+                    ->where('produtos.categoria_id', $categoria_id)
+                    ->where('produtos.ativo', true)
+                    ->where('produtos_especificacoes.customizavel', true)
+                    ->groupBy('produtos.nome')
+                    ->findAll();
+
+    }
+
+    public function exibeProdutosParaCustomizarSegundaMetade(int $produto_id, int $categoria_id){
+
+        return $this->select(['produtos.id', 'produtos.nome'])
+                    ->join('categorias', 'categorias.id = produtos.categoria_id')
+                    ->join('produtos_especificacoes', 'produtos_especificacoes.produto_id = produtos.id')
+                    ->where('produtos.id !=', $produto_id)
+                    ->where('produtos.categoria_id', $categoria_id)
+                    ->where('produtos.ativo', true)
+                    ->where('produtos_especificacoes.customizavel', true)
+                    ->groupBy('produtos.nome')
+                    ->findAll();
+
+    }
+    
 }

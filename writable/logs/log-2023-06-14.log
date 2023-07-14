@@ -1,0 +1,24 @@
+CRITICAL - 2023-06-14 16:12:18 --> Undefined variable: titulo
+in APPPATH\Views\Conta\editar.php on line 4.
+ 1 APPPATH\Views\Conta\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: titulo', 'APPPATH\\Views\\Conta\\editar.php', 4, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Conta\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Conta/editar', [], true)
+ 5 APPPATH\Controllers\Conta.php(77): view('Conta/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Conta->processaAutenticacao()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conta))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-14 16:13:42 --> Undefined variable: titulo
+in APPPATH\Views\Conta\editar.php on line 4.
+ 1 APPPATH\Views\Conta\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: titulo', 'APPPATH\\Views\\Conta\\editar.php', 4, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Conta\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Conta/editar', [], true)
+ 5 APPPATH\Controllers\Conta.php(77): view('Conta/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Conta->processaAutenticacao()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conta))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

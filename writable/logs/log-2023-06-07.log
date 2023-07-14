@@ -1,0 +1,198 @@
+ERROR - 2023-06-07 10:33:17 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'food', 3306, '', 0)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\food\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\food\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\food\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\food\app\Models\CategoriaModel.php(83): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\food\app\Controllers\Home.php(21): App\Models\CategoriaModel->BuscaCategoriasWebHome()
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(898): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\food\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\food\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#3 C:\xampp\htdocs\food\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\food\app\Models\CategoriaModel.php(83): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\food\app\Controllers\Home.php(21): App\Models\CategoriaModel->BuscaCategoriasWebHome()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(898): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-06-07 10:33:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `categorias`.`id`, `categorias`.`nome`, `categorias`.`slug`
+FROM `categorias`
+JOIN `produtos` ON `produtos`.`categoria_id` = `categorias`.`id`
+WHERE `categorias`.`deletado_em` IS NULL
+GROUP BY `categorias`.`id`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\CategoriaModel.php(83): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(21): App\Models\CategoriaModel->BuscaCategoriasWebHome()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-06-07 10:33:32 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'food', 3306, '', 0)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\food\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\food\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#4 C:\xampp\htdocs\food\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\food\app\Models\CategoriaModel.php(83): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\food\app\Controllers\Home.php(21): App\Models\CategoriaModel->BuscaCategoriasWebHome()
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(898): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\food\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\food\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\food\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\food\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\food\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `categor...', Array, false)
+#3 C:\xampp\htdocs\food\system\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\food\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\food\app\Models\CategoriaModel.php(83): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\food\app\Controllers\Home.php(21): App\Models\CategoriaModel->BuscaCategoriasWebHome()
+#7 C:\xampp\htdocs\food\system\CodeIgniter.php(898): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\food\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\food\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\food\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\food\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-06-07 10:33:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `categorias`.`id`, `categorias`.`nome`, `categorias`.`slug`
+FROM `categorias`
+JOIN `produtos` ON `produtos`.`categoria_id` = `categorias`.`id`
+WHERE `categorias`.`deletado_em` IS NULL
+GROUP BY `categorias`.`id`', [], false)
+ 3 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\CategoriaModel.php(83): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Home.php(21): App\Models\CategoriaModel->BuscaCategoriasWebHome()
+ 7 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-07 11:03:24 --> Cannot use object of type App\Entities\Produto as array
+in APPPATH\Controllers\Carrinho.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->adicionar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-07 11:03:46 --> Cannot use object of type App\Entities\Produto as array
+in APPPATH\Controllers\Carrinho.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->adicionar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-07 11:04:02 --> Cannot use object of type App\Entities\Produto as array
+in APPPATH\Controllers\Carrinho.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->adicionar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-07 11:06:30 --> Cannot use object of type App\Entities\Produto as array
+in APPPATH\Controllers\Carrinho.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->adicionar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-07 11:18:24 --> Cannot use object of type App\Entities\Produto as array
+in APPPATH\Controllers\Carrinho.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->adicionar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-07 11:46:37 --> Cannot use object of type App\Entities\Produto as array
+in APPPATH\Controllers\Carrinho.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->adicionar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-07 11:58:46 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Carrinho\index.php on line 38.
+ 1 APPPATH\Views\Carrinho\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\Carrinho\\index.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrinho\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Carrinho/index', [], true)
+ 5 APPPATH\Controllers\Carrinho.php(40): view('Carrinho/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-07 12:27:41 --> syntax error, unexpected ',', expecting ']'
+in APPPATH\Controllers\Carrinho.php on line 285.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('carrinho')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('carrinho')
+ 3 SYSTEMPATH\CodeIgniter.php(773): CodeIgniter\Router\Router->handle('carrinho')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-07 12:31:26 --> Cannot use object of type App\Entities\Produto as array
+in APPPATH\Controllers\Carrinho.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->adicionar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-07 12:31:38 --> Cannot use object of type App\Entities\Produto as array
+in APPPATH\Controllers\Carrinho.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->adicionar()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-07 17:43:17 --> Illegal string offset 'cep'
+in APPPATH\Controllers\Carrinho.php on line 394.
+ 1 APPPATH\Controllers\Carrinho.php(394): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'cep\'', 'APPPATH\\Controllers\\Carrinho.php', 394, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->consultaCep()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-07 17:45:27 --> Call to undefined function App\Controllers\consultaCep()
+in APPPATH\Controllers\Carrinho.php on line 396.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Carrinho->consultaCep()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrinho))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
